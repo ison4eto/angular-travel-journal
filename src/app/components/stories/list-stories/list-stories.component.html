@@ -1,0 +1,5 @@
+<div class="container" *ngIf="stories">
+	<div *ngFor="let s of stories | async">
+		<app-stories-list-single [story]="s" class="single-story"></app-stories-list-single>
+	</div>
+</div>

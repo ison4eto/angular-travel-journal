@@ -1,0 +1,10 @@
+.aboutus-section{
+    background-color: #f8f8f8;
+    padding: 40px;
+    margin: 89px 100px;
+    border-radius: 10px;
+}
+
+.aboutus-banner img{
+    max-width: 600px;
+}

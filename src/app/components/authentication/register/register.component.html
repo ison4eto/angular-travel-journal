@@ -1,0 +1,78 @@
+<div class="container register-box">
+    <div class="row main">
+        <div *ngIf="bindingModel" class="main-login main-center">
+            <h1 class="title">Register</h1>
+            <form class="form-horizontal" #registerForm="ngForm" (submit)="register(registerForm)" >
+
+                <div class="form-group">
+                    <label for="email" class="cols-sm-2 control-label">Your Email</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-envelope fa" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="form-control" id="email" placeholder="Enter your Email"
+                            name="email" 
+                            [(ngModel)]="bindingModel.email" 
+                            #email="ngModel"
+                            required 
+                            pattern="^[a-zA-Z0-9.!#$%&amp;’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"                      
+                             />
+                        </div>
+                    </div>
+                    <div class="alert alert-danger" [hidden]="email.valid || email.pristine" >
+                            Email is incorrect.
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="cols-sm-2 control-label">Password</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
+                            </span>
+                            <input type="password" class="form-control" placeholder="Enter your Password" id="password" 
+                            name="password"
+                            [(ngModel)]="bindingModel.password" 
+                            #password="ngModel"
+                            required 
+                            pattern="^\S{4,16}$"
+                            />
+                        </div>
+                    </div>
+                    <div class="alert alert-danger" [hidden]="password.valid || password.pristine" >
+                            Password must contain only non-whitespace symbols and must be between 4 and 16 symbols.
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
+                            </span>
+                            <input type="password" class="form-control" id="confirm" placeholder="Confirm your Password" 
+                            name="confirm"
+                            [(ngModel)]="bindingModel.confirm" 
+                            #confirm="ngModel"
+                            required 
+                            />
+                        </div>
+                    </div>
+                    <div class="alert alert-danger" [hidden]="password.value === confirm.value || confirm.pristine" >
+                            Passwords must match.
+                    </div>
+                </div>
+
+                <div class="form-group ">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block login-button" [disabled]="registerForm.invalid">Register</button>
+                </div>
+                <div class="login-register">
+                    <a routerLink="/login">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

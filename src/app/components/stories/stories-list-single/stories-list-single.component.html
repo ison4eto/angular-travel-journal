@@ -1,0 +1,13 @@
+<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+  <div class="panel panel-default">
+    <article class="panel-body">
+      <img src="{{story.imageUrl}}" alt="story-image" class="img-thumbnail img-responsive">
+      <p class="text-muted">By
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>{{story.creator}}
+        <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{story.createdOn | date}}</p>
+      <h3>{{story.title}}</h3>
+      <p>{{story.description | slice:0:20}}</p>
+      <a routerLink="/stories/details/{{story.id}}" class="btn btn-default">Read more...</a>
+    </article>
+  </div>
+</div>
