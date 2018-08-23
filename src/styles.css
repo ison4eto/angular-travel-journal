@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+@import '~ngx-toastr/toastr.css';
+
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+
+ body, html{
+    height: 100%;
+    background-image: url('./assets/pictures/wallpapers/travel-sauna.jpg');
+    background-repeat: repeat;
+    color: #638263;
+}
+
+a{
+    color: #638263;
+}
