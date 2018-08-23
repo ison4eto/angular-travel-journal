@@ -10,10 +10,10 @@ The core idea of the Travel Journal app is to share your travelling stories with
 
 The application is split into three parts
 
-Main area
-  Guests are allowed to read stories and more about the owners of the blog. 
-  They can log in and register
-Writers area
-  Registered users can write new stories and edit, and delete their own stories.
-Admin area
-  The admin can edit and delete every story
+### Main area
+* Guests are allowed to read stories and more about the owners of the blog. 
+* They can log in and register
+### Writers area
+* Registered users can write new stories and edit, and delete their own stories.
+### Admin area
+* The admin can edit and delete every story
