@@ -4,35 +4,55 @@
         "title" : "Images by pexels.com" ,
         "description" : "Nulla vehicula semper tellus, eleifend convallis dolor accumsan vitae. Donec diam lorem, vulputate eget pharetra at,laoreet ac augue. Vestibulum tellus justo, faucibus quis hendrerit sit amet, rutrum non nulla[...]",
         "imageUrl" : "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?h=350&auto=compress&cs=tinysrgb",
-        "creator":"iskra",
+        "creator" : {
+          "email" : "iskra@abv.bg",
+          "name" : "iskra",
+          "id": "beHxLPpoAhPTKGII6aH1vGr6jiJ2"
+        },
         "createdOn": "2018-08-11T09:03:37.089Z"
       },
       "-LJ9AHS5XbVD00BxjxUH" : {
         "title" : "Images by pexels.com" ,
         "description" : "Nulla vehicula semper tellus, eleifend convallis dolor accumsan vitae. Donec diam lorem, vulputate eget pharetra at,laoreet ac augue. Vestibulum tellus justo, faucibus quis hendrerit sit amet, rutrum non nulla[...]",
         "imageUrl" : "https://images.pexels.com/photos/34601/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb",
-        "creator":"pesho",
+        "creator" : {
+          "email" : "iskra@abv.bg",
+          "name" : "iskra",
+          "id": "beHxLPpoAhPTKGII6aH1vGr6jiJ2"
+        },
         "createdOn": "2018-07-11T09:03:37.089Z"
       },
       "-LJ9AXs0smO2wNwFJl2U" : {
         "title" : "Images by pexels.com" ,
         "description" : "Nulla vehicula semper tellus, eleifend convallis dolor accumsan vitae. Donec diam lorem, vulputate eget pharetra at,laoreet ac augue. Vestibulum tellus justo, faucibus quis hendrerit sit amet, rutrum non nulla[...]",
         "imageUrl" : "https://images.pexels.com/photos/459688/pexels-photo-459688.jpeg?h=350&auto=compress&cs=tinysrgb",
-        "creator":"gosho",
+        "creator" : {
+          "email" : "iskra@abv.bg",
+          "name" : "iskra",
+          "id": "beHxLPpoAhPTKGII6aH1vGr6jiJ2"
+        },
         "createdOn": "2018-06-11T09:03:37.089Z"
       },
       "-LJ9Alio-9vTR-duxmDy" : {
         "title" : "Images by pexels.com" ,
         "description" : "Nulla vehicula semper tellus, eleifend convallis dolor accumsan vitae. Donec diam lorem, vulputate eget pharetra at,laoreet ac augue. Vestibulum tellus justo, faucibus quis hendrerit sit amet, rutrum non nulla[...]",
         "imageUrl" : "https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?h=350&auto=compress&cs=tinysrgb",
-        "creator":"iskra",
+        "creator" : {
+          "email" : "iskra@abv.bg",
+          "name" : "iskra",
+          "id": "beHxLPpoAhPTKGII6aH1vGr6jiJ2"
+        },
         "createdOn": "2018-08-11T09:03:37.089Z"
       },
       "-LJ9B48QVhqpmTmodohM" : {
         "title" : "Images by pexels.com" ,
         "description" : "Nulla vehicula semper tellus, eleifend convallis dolor accumsan vitae. Donec diam lorem, vulputate eget pharetra at,laoreet ac augue. Vestibulum tellus justo, faucibus quis hendrerit sit amet, rutrum non nulla[...]",
         "imageUrl" : "https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?h=350&auto=compress&cs=tinysrgb",
-        "creator":"iskra",
+        "creator" : {
+          "email" : "iskra@abv.bg",
+          "name" : "iskra",
+          "id": "beHxLPpoAhPTKGII6aH1vGr6jiJ2"
+        },
         "createdOn": "2018-08-11T09:03:37.089Z"
       }
     }

@@ -12,7 +12,7 @@ export class CreateStoryComponent implements OnInit {
   bindingModel: Story
   constructor(private storyService: StoriesService,
   private authService: AuthenticationService) {
-    const creator = this.authService.getName()
+    const creator = this.authService.getUser()
     const date = new Date()
     this.bindingModel = new Story('','','',creator, date)
    }

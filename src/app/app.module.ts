@@ -26,8 +26,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
     SharedModule,
-    AuthenticationModule,
     StoriesModule,
+    AuthenticationModule,
     StoriesRoutingModule,
     AppRoutingModule
 

@@ -1,10 +1,14 @@
 <div *ngIf="story" class="col-md-10 blogShort">
   <h1>{{story.title}}
-    <span><a class="btn btn-warning" routerLink="/stories/edit/{{id}}">🖊️</a></span>
-    <span><a class="btn btn-danger" routerLink="/stories/delete/{{id}}">🗑️</a></span>
+    <span *ngIf="authService.isAdmin() || authService.isCreator(story)">
+      <a class="btn btn-warning" routerLink="/stories/edit/{{id}}">🖊️</a>
+    </span>
+    <span *ngIf="authService.isAdmin() || authService.isCreator(story)">
+      <a class="btn btn-danger" routerLink="/stories/delete/{{id}}">🗑️</a>
+    </span>
   </h1>
   <p class="text-muted">By
-      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>{{story.creator}}
+      <span class="glyphicon glyphicon-user" aria-hidden="true"></span>{{story.creator.name}}
       <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> {{story.createdOn | date}}
   </p>
   <img src="{{story.imageUrl}}" alt="post img" class="pull-left img-responsive postImg img-thumbnail margin10">
