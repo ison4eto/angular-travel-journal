@@ -1,27 +1,19 @@
 # TravelJournal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+Project made for the SoftUni course Angular fundamentals
 
-## Development server
+## Idea
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The core idea of the Travel Journal app is to share your travelling stories with the others. It's a shared journal for travellers
 
-## Code scaffolding
+## Design
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The application is split into three parts
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Main area
+  Guests are allowed to read stories and more about the owners of the blog. 
+  They can log in and register
+Writers area
+  Registered users can write new stories and edit, and delete their own stories.
+Admin area
+  The admin can edit and delete every story
